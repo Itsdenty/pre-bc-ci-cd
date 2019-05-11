@@ -1,0 +1,42 @@
+{
+  "name": "pre-bc-ci-cd",
+  "version": "1.0.0",
+  "description": "For implementing the ci/cd pipeline on node a project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server/index.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Itsdenty/pre-bc-ci-cd.git"
+  },
+  "keywords": [
+    "ci/cd",
+    "test",
+    "travis",
+    "coverage-badges"
+  ],
+  "author": "abd-afeez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Itsdenty/pre-bc-ci-cd/issues"
+  },
+  "homepage": "https://github.com/Itsdenty/pre-bc-ci-cd#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "mailgun-js": "^0.22.0",
+    "morgan": "^1.9.1",
+    "swagger-jsdoc": "^3.2.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "nodemon": "^1.19.0"
+  }
+}
